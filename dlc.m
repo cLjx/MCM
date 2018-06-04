@@ -32,7 +32,7 @@ for j=1:y
         end
     end
 end
-imagesc(I);
+% imagesc(I);
 % Map = [0,0,0;1 1 1];colormap(Map);
 h0=788-457
 w=1179-759

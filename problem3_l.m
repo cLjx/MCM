@@ -68,8 +68,8 @@ plot([15:75],Li(15:75))
 min(Li(30:60))
 max(Li(30:60))
 for i=30:60
-    if Li(i)-208.7247*2<2
-        ljx1=i
+    if Li(i)-208.7247*2<=0
+        i
         break;
     end
 end

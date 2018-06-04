@@ -61,6 +61,12 @@ legend('平水','动水','平山','动山');
 xlabel('角度');ylabel('损耗');
 % end
 
+% new_p2_data
+fid=fopen('new_p2_data.txt','w'); %以写的方式打开文件B.txt
+for i=1:length(Lreal)
+    fprintf(fid,'%u\r\n',Lreal(i)); %按行写入B.txt，且每行后加入回车符换行。
+end
+fclose(fid); %关闭B.txt
 
 
 
